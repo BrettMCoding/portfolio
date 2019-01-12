@@ -55,7 +55,6 @@
       width: 250px;
       height: 250px;
       background: url("../img/portrait.jpg");
-      border-radius: 50%;
       border: solid 3px #ff6c11; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
@@ -125,6 +124,7 @@ h3 {
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
+    margin-top: 2rem;
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: rgba(46, 29, 66, 0.7); }
