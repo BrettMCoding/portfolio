@@ -24,8 +24,10 @@ body {
       background: rgba(36, 23, 52, 0.6); }
 
 header {
-
-}
+    position: fixed;
+    z-index: -1;
+    width: 100%; }
+      
 
 .contact {
     text-align: center;
@@ -43,19 +45,15 @@ h3 {
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    width: 20%;
+    margin: 0 auto;
     padding: 0.2rem 1rem;
-    background: rgba(46, 29, 66, 0.7); }
+    background: rgba(46, 29, 66, 0.7);
+ }
 
 a {
   color: #fff;
   text-decoration: none; }
-
-header {
-  position: fixed;
-  z-index: 2;
-  width: 100%; }
 
 .text-secondary {
   color: #ff6c11; }
@@ -174,7 +172,8 @@ text-align: center;
 
 @media screen and (min-width: 1171px) {
   .projects {
-    grid-template-columns: repeat(4, 1fr); } }
+    grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
+    justify-content: center;} }
 
 @media screen and (min-width: 769px) and (max-width: 1170) {
   .projects {
