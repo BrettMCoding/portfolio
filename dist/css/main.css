@@ -23,6 +23,14 @@ body {
       z-index: -1;
       background: rgba(36, 23, 52, 0.6); }
 
+header {
+
+}
+
+.contact {
+    text-align: center;
+}
+
 h1,
 h2,
 h3 {
@@ -100,6 +108,8 @@ text-align: center;
 }
 
 .imgboxtext {
+    /* display: flex;
+    flex-wrap: wrap; */
   position: absolute;
   text-align: center;
   padding-left: 1em;
@@ -116,6 +126,14 @@ text-align: center;
   transition: all 0.3s ease-in-out 0s;
 }
 
+.left {
+
+}
+
+.right {
+    
+}
+
 .imgbox:hover .imgboxtext{
   top: 50%;
   left: 50%;
@@ -124,6 +142,10 @@ text-align: center;
 
 .fadeIn-top{
   top: 20%;
+}
+
+.fadeIn-bottom{
+  top: 80%;
 }
 
 .btn, .btn-dark, .btn-light {
