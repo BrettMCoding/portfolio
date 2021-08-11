@@ -5,5 +5,7 @@
   "main": "index.js",
   "author": "Brett Marsh",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "jquery-slim": "^3.0.0"
+  }
 }
